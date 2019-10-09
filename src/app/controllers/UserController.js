@@ -31,8 +31,8 @@ class UserController {
       name,
       email,
       provider
-    })
-  },
+    });
+  }
 
   async update(req, res) {
 
